@@ -1,0 +1,16 @@
+# dependencies
+node_modules
+
+# misc
+.DS_Store
+package-lock.json
+
+# logs
+npm-debug.log*
+
+# Intellij
+.idea
+
+# docker files
+Dockerfile
+.dockerignore

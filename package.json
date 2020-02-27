@@ -1,0 +1,37 @@
+{
+  "name": "nodejs-cli-toy-robot-simulator",
+  "version": "1.0.0",
+  "description": "NodeJS CLI Toy Robot Simulator",
+  "main": "app.js",
+  "bin": {
+    "toy-robot": "app.js"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "start:file": "node app.js $FILE",
+    "test": "jest",
+    "test:file": "jest --watchAll $FILE",
+    "test:watch": "jest --watchAll",
+    "test:build": "jest --silent",
+    "seed": "node app.js ./seed.txt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kelvinlwy/nodejs-cli-toy-robot-simulator.git"
+  },
+  "keywords": [
+    "nodejs",
+    "cli",
+    "command"
+  ],
+  "author": "Kelvin Leung",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kelvinlwy/nodejs-cli-toy-robot-simulator/issues"
+  },
+  "homepage": "https://github.com/kelvinlwy/nodejs-cli-toy-robot-simulator#readme",
+  "devDependencies": {
+    "jest": "^25.1.0",
+    "rewire": "^4.0.1"
+  }
+}

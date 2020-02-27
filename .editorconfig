@@ -1,0 +1,20 @@
+# EditorConfig helps maintain consistent coding styles
+# for multiple developers working on the same project
+# across various editors and IDEs.
+#
+# Check out http://editorconfig.org for details
+
+# top-most EditorConfig file
+root = true
+
+# Coding styles for all files
+[*]
+# Unix-style newlines with a newline ending every file
+end_of_line = lf
+# Set default charset
+charset = utf-8
+
+# 4 space indentation for all JS files
+[**.js]
+indent_style = space
+indent_size = 4
